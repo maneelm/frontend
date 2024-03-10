@@ -1,0 +1,62 @@
+/* Contact.css */
+.contact-container {
+    padding: 20px;
+  }
+  
+  .contact-box {
+    max-width: 600px;
+    margin: 20px auto; /* Add margin-top and margin-bottom */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff; /* Optional: Set background color for the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add box shadow for a raised effect */
+  }
+  
+  .contact-box h1 {
+    margin-bottom: 20px;
+  }
+  
+  .contact-box form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-box label {
+    font-weight: bold;
+  }
+  
+  .contact-box input[type="email"],
+  .contact-box textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .contact-box textarea {
+    height: 70px;
+  }
+  
+  .contact-box button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact-box button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .success-message {
+    color: #28a745;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
